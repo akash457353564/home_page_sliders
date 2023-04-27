@@ -557,6 +557,185 @@ function hmrAccept(bundle, id) {
 }
 
 },{}],"6rimH":[function(require,module,exports) {
+function in__home_v3() {
+    let splides = $(".in__home_v3");
+    for(let i = 0, splideLength = splides.length; i < splideLength; i++)new Splide(splides[i], {
+        // Desktop on down
+        perPage: 3,
+        perMove: 1,
+        focus: 0,
+        type: "loop",
+        gap: "2em",
+        arrows: "slider",
+        pagination: false,
+        speed: 600,
+        dragAngleThreshold: 30,
+        autoWidth: false,
+        rewind: true,
+        rewindSpeed: 400,
+        waitForTransition: false,
+        updateOnMove: true,
+        trimSpace: false,
+        breakpoints: {
+            991: {
+                // Tablet
+                perPage: 1,
+                gap: "4vw"
+            },
+            767: {
+                // Mobile Landscape
+                perPage: 1,
+                gap: "4vw"
+            },
+            479: {
+                // Mobile Portrait
+                perPage: 1,
+                gap: "16px"
+            }
+        }
+    }).mount();
+}
+in__home_v3();
+function venue_vendor() {
+    let splides = $(".venue_vendor");
+    for(let i = 0, splideLength = splides.length; i < splideLength; i++)new Splide(splides[i], {
+        // Desktop on down
+        perPage: 3,
+        perMove: 1,
+        focus: 0,
+        type: "loop",
+        gap: "2em",
+        arrows: "slider",
+        pagination: false,
+        speed: 600,
+        dragAngleThreshold: 30,
+        autoWidth: false,
+        rewind: true,
+        rewindSpeed: 400,
+        waitForTransition: false,
+        updateOnMove: true,
+        trimSpace: false,
+        autoplay: true,
+        breakpoints: {
+            991: {
+                // Tablet
+                perPage: 1,
+                gap: "4vw"
+            },
+            767: {
+                // Mobile Landscape
+                perPage: 1,
+                gap: "4vw"
+            },
+            479: {
+                // Mobile Portrait
+                perPage: 1,
+                gap: "4vw"
+            }
+        }
+    }).mount();
+}
+venue_vendor();
+function decoration_vendor() {
+    let splides = $(".decoration_vendor");
+    for(let i = 0, splideLength = splides.length; i < splideLength; i++)new Splide(splides[i], {
+        // Desktop on down
+        perPage: 3,
+        perMove: 1,
+        focus: 0,
+        type: "loop",
+        gap: "2em",
+        arrows: "slider",
+        pagination: false,
+        speed: 600,
+        dragAngleThreshold: 30,
+        autoWidth: false,
+        rewind: true,
+        rewindSpeed: 400,
+        waitForTransition: false,
+        updateOnMove: true,
+        trimSpace: false,
+        autoplay: true,
+        breakpoints: {
+            991: {
+                // Tablet
+                perPage: 1,
+                gap: "4vw"
+            },
+            767: {
+                // Mobile Landscape
+                perPage: 1,
+                gap: "4vw"
+            },
+            479: {
+                // Mobile Portrait
+                perPage: 1,
+                gap: "4vw"
+            }
+        }
+    }).mount();
+}
+decoration_vendor();
+function wedding_success() {
+    let splides = $(".wedding_success");
+    for(let i = 0, splideLength = splides.length; i < splideLength; i++)new Splide(splides[i], {
+        // Desktop on down
+        perPage: 2,
+        perMove: 1,
+        focus: 0,
+        type: "loop",
+        gap: "2em",
+        arrows: false,
+        pagination: false,
+        speed: 600,
+        dragAngleThreshold: 30,
+        autoWidth: false,
+        rewind: true,
+        rewindSpeed: 400,
+        waitForTransition: false,
+        updateOnMove: true,
+        trimSpace: false,
+        autoplay: true,
+        breakpoints: {
+            991: {
+                // Tablet
+                perPage: 1,
+                gap: "4vw"
+            },
+            767: {
+                // Mobile Landscape
+                perPage: 1,
+                gap: "4vw"
+            },
+            479: {
+                // Mobile Portrait
+                perPage: 1,
+                gap: "4vw"
+            }
+        }
+    }).mount();
+}
+wedding_success();
+Array.from(document.querySelectorAll("#left-arrow")).forEach(function(el) {
+    el.addEventListener("click", ()=>{
+        Array.from(document.querySelectorAll(".splide__arrow--prev")).forEach((el)=>{
+            el.click();
+        });
+    });
+});
+Array.from(document.querySelectorAll("#right-arrow")).forEach(function(el) {
+    el.addEventListener("click", ()=>{
+        Array.from(document.querySelectorAll(".splide__arrow--next")).forEach((el)=>{
+            el.click();
+        });
+    });
+});
+Array.from(document.querySelectorAll(".splide__arrow--next")).forEach((el)=>{
+    el.style.display = "none";
+});
+Array.from(document.querySelectorAll(".splide__arrow--prev")).forEach((el)=>{
+    el.style.display = "none";
+});
 
 },{}]},["dpgAG","6rimH"], "6rimH", "parcelRequire64e5")
 
