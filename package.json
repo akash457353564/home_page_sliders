@@ -1,0 +1,23 @@
+{
+  "name": "home_page_sliders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash457353564/home_page_sliders.git"
+  },
+  "author": "Akash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akash457353564/home_page_sliders/issues"
+  },
+  "homepage": "https://github.com/akash457353564/home_page_sliders#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
